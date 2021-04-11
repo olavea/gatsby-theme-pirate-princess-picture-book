@@ -1,0 +1,21 @@
+{
+  "name": "example-book",
+  "version": "1.0.0",
+  "description": "An example book about easter",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lillian Raae-Vea (6 🦄)",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-theme-pirate-princess-picture-book": "^0.0.1",
+    "gatsby": "^3.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

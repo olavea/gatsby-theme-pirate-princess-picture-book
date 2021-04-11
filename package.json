@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-theme-pirate-princess-picture-book",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Yarn workspace for maintaining gatsby-theme-pirate-princess-picture-book so Lillian (6 🦄) can publish her own books on the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olavea/gatsby-theme-pirate-princess-picture-book.git"
+  },
+  "keywords": [
+    "gatsbyjs",
+    "Yarn",
+    "workspace",
+    "gatsby-theme",
+    "pirate",
+    "princess",
+    "picture-book"
+  ],
+  "author": "Lillian Raae-Vea (6 🦄)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olavea/gatsby-theme-pirate-princess-picture-book/issues"
+  },
+  "homepage": "https://github.com/olavea/gatsby-theme-pirate-princess-picture-book#readme",
+  "workspaces": [
+    "gatsby-theme-pirate-princess-picture-book",
+    "example-book"
+  ]
+
+
+
+}
