@@ -13,5 +13,10 @@
     "pirate-princess"
   ],
   "author": "Lillian Raae-Vea (6 🦄)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-plugin-image": "^1.2.1",
+    "gatsby-plugin-sharp": "^3.2.1",
+    "gatsby-source-filesystem": "^3.2.0"
+  }
 }
