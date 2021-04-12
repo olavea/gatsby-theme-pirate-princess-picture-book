@@ -1,11 +1,19 @@
+import {graphql} from "gatsby"
 import React from "react"
+import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image"
+import Layout from "../components/layout"
 
 const ShowDate = ({data}) => {
-  return (
-    <h1>{data.file.name}</h1>
+  const treasureChest = data
+  const pickAxe = getImage(treasureChest.imageSharp)
+    return (
+        <Layout>
+        <GatsbyImage image={pickAxe} alt="A picture book page" />
+        </Layout>
+
   )
 }
-import {graphql} from "gatsby"
+
 
 export const query = graphql`
     query WerlinDollaridFindsDates(
@@ -13,6 +21,9 @@ export const query = graphql`
     ) {
         file(id: {eq: $id}) {
             name
+        }
+        imageSharp {
+            gatsbyImageData(layout: CONSTRAINED)
         }
     }
 `;

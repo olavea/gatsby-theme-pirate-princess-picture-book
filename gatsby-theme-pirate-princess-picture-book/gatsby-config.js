@@ -17,6 +17,7 @@ module.exports = ({ imagePath = "book/pickaxes", audioPath }) => {
         },
         "gatsby-plugin-sharp",
         "gatsby-plugin-image",
+        "gatsby-transformer-sharp",
       ]
         // .concat(
         //   audioPath
