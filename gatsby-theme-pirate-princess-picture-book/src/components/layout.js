@@ -10,6 +10,7 @@ const Layout = ({children}) => (
         </nav>
       </header>
       <main>{children}</main>
+      <footer><p>Written, read and hand drawn by Lillian (6 🦄) Raae-Vea </p></footer>
     </div>
 );
 
