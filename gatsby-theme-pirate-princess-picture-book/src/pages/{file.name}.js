@@ -2,7 +2,6 @@ import React from "react"
 
 const ShowDate = ({data}) => {
   return (
-
     <h1>{data.file.name}</h1>
   )
 }
