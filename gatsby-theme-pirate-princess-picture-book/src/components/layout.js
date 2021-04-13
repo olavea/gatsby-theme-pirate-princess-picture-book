@@ -6,7 +6,7 @@ const Layout = ({children}) => (
     <div>
       <header>
         <nav>
-          <Link to="/">Change page by changing page number in the browser for example 02 🎩</Link>
+          <Link to="/">Change page by changing page number in the browser for example to 02 🎩</Link>
         </nav>
       </header>
       <main>{children}</main>
