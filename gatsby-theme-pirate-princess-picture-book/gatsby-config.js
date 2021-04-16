@@ -2,6 +2,20 @@ module.exports = ({ imagePath = "book/pickaxes", audioPath }) => {
     return {
       siteMetadata: {
         siteTitle: "@olavea/gatsby-theme-picture-book",
+        // menuLinks: [
+        //     {
+        //         name: 'home',
+        //         link: '/'
+        //     },
+        //     {
+        //         name: 'page2',
+        //         link: '/page-2'
+        //     },
+        //     {
+        //         name: '->',
+        //         link: '/page-3'
+        //     },
+        // ],
         siteDescription:
           "Make a Do-It-Yourself picture book together with a child you know.",
         siteLanguage: "en",
